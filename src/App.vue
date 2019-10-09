@@ -12,7 +12,6 @@
         </div>
       </div>
       <div class="icons">
-        <img src="./assets/logowithoutbackg.png" width="75" height="103.5">
         <div class="socials_container">
           <div class="socials"><i class="fab fa-instagram"></i></div>
           <div class="socials"><i class="fab fa-facebook"></i></div>
@@ -21,9 +20,18 @@
 
       </div>
     </div>
+    <div class="logo_bar">
+      <img src="./assets/logowithoutbackg.png" height="80">
+    </div>
   </header>
 
   <main>
+    <div class id="product_boxes">
+      <div>
+
+      </div>
+
+    </div>
   <div>
   <router-view/>
   </div>
@@ -86,13 +94,13 @@
   }
 
   .nav_container{
-    height: 110px;
+    height: 60px;
     width: 100%;
     display: flex;
   }
   .leftSide{
     width: 50%;
-    height: 108px;
+    height: 60px;
     font-size: 50px;
     background: black;
     font-family: myFirstFont;
@@ -112,7 +120,7 @@
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     background-color: white;
     border: black solid;
@@ -121,8 +129,8 @@
   }
 .nav_wrapper{
   width:150px;
-  height: 100px;
-  font-size: 40px;
+  height: 60px;
+  font-size: 30px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -135,10 +143,17 @@
 }
   .socials_container{
     width: 200px;
-    height: 100px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;;
+  }
+  .logo_bar {
+    justify-content: center;
+    background: white;
+    display: flex;
+    height: 100px;
+    align-items: center;
   }
 
 </style>
